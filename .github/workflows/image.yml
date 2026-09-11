@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: ghcr.io/pv/bluez-ci-image:latest
+          tags: ghcr.io/bluez/ci-image:latest

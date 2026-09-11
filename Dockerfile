@@ -1,5 +1,5 @@
 FROM ubuntu:26.04
-LABEL org.opencontainers.image.source="https://github.com/pv/bluez-ci-image"
+LABEL org.opencontainers.image.source="https://github.com/bluez/ci-image"
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
